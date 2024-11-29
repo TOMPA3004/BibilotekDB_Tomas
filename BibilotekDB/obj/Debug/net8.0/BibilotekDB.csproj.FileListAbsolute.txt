@@ -1,0 +1,5 @@
+C:\Users\tomas\OneDrive\Skrivbord\c#\BibilotekDB\BibilotekDB\obj\Debug\net8.0\BibilotekDB.csproj.AssemblyReference.cache
+C:\Users\tomas\OneDrive\Skrivbord\c#\BibilotekDB\BibilotekDB\obj\Debug\net8.0\BibilotekDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\OneDrive\Skrivbord\c#\BibilotekDB\BibilotekDB\obj\Debug\net8.0\BibilotekDB.AssemblyInfoInputs.cache
+C:\Users\tomas\OneDrive\Skrivbord\c#\BibilotekDB\BibilotekDB\obj\Debug\net8.0\BibilotekDB.AssemblyInfo.cs
+C:\Users\tomas\OneDrive\Skrivbord\c#\BibilotekDB\BibilotekDB\obj\Debug\net8.0\BibilotekDB.csproj.CoreCompileInputs.cache
