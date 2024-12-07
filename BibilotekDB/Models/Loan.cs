@@ -13,8 +13,8 @@ namespace BibliotekDB.Models
         public DateTime LoanDate {get; set;}
         public DateTime ReturnDate {get; set;}
 
-        public bool Returned {get; set;}
-        public string Signature {get; set;}
+        public bool IsReturn {get; set;}
+        public string BorrowerName {get; set;}
 
         public Book Book {get; set;}
     }
