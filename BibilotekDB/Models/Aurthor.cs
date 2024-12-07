@@ -8,11 +8,11 @@ namespace BibliotekDB.Models
 {
     public class Aurthor
     {
-        public int AurthorId {get; set;}
+        public int AurthorID {get; set;}
         public string FirstName {get; set;}
         public string LastName {get; set;}
 
         
-        public Book BookID {get; set;}
+        public ICollection<AurthorBook> AurthorBook {get; set;}
     }
 }

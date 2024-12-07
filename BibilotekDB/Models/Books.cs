@@ -10,6 +10,7 @@ namespace BibliotekDB.Models
         public string Title {get; set;}
         public string PublicDate {get; set;}
 
-        
+         public Aurthor Aurthor {get; set;}
+        public Book Books {get; set;}
     }
 }
