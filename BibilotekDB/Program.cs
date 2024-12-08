@@ -64,11 +64,11 @@ class Program
                 CreateAuthor.Run();
                 break;
             case 3:
-            //     test.Run();
-            //     break;
-            // case 4:
-            //     test.Run();
-            //     break;
+                DeleteBook.Run();
+                break;
+            case 4:
+                DeleteAuthor.Run();
+                break;
             // case 5:
             //     test.Run();
             //     break;
