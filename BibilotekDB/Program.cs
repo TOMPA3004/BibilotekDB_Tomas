@@ -9,9 +9,10 @@ using Microsoft.EntityFrameworkCore.ValueGeneration.Internal;
 
 class Program
 {
+    
     static void Main(string[] args)
     {   
-       
+        Seedo.Run();
         Console.WriteLine("Welcome To The Bibilotek\n");
         int menuSel = 0;
         do
@@ -19,35 +20,35 @@ class Program
             menuSel = MenuSelect();
             Menu(menuSel);
         }
-        while (menuSel != 7);
+        while (menuSel != 9);
     }
     private static int MenuSelect()
     {
         int menuSel = 0;
-        Console.WriteLine("Menu Selection");
-        Console.WriteLine("1. Create Book, ");
-        Console.WriteLine("2. Create Author");
-        Console.WriteLine("3. Delete Book");
-        Console.WriteLine("4. Delete Author");
-        Console.WriteLine("5. Delete Loan");
-        Console.WriteLine("6. Loan and return Book");
-        Console.WriteLine("7. Update Book, Author");
-        Console.WriteLine("8. Add Reltionship from Author to Book.");
-        Console.WriteLine("9. List");
-        Console.WriteLine("10. Quit");
+        Console.WriteLine("========== MENU ==========");
+        Console.WriteLine("1. Create a Book");
+        Console.WriteLine("2. Create an Author");
+        Console.WriteLine("3. Delete a Book");
+        Console.WriteLine("4. Delete an Author");
+        Console.WriteLine("5. Delete a Loan Record");
+        Console.WriteLine("6. Manage Book Loans and Returns");
+        Console.WriteLine("7. Add a Relationship Between Author and Book");
+        Console.WriteLine("8. Display All Records");
+        Console.WriteLine("9. Exit");
+        Console.WriteLine("===========================");
         try
         {
             menuSel = Convert.ToInt32(Console.ReadLine());
-            if (menuSel < 1 || menuSel > 10)
+            if (menuSel < 1 || menuSel > 9)
             {
-                Console.WriteLine("Select Between 1 - 10");
+                Console.WriteLine("Please select Between 1 - 9");
                 Console.ReadLine();
                 return MenuSelect();
             }
         }
         catch
         {
-            System.Console.WriteLine("Select between 1 - 10");
+            System.Console.WriteLine("Please select between 1 - 9");
             Console.ReadLine();
             return MenuSelect(); 
         }
@@ -69,23 +70,20 @@ class Program
             case 4:
                 DeleteAuthor.Run();
                 break;
-            // case 5:
-            //     test.Run();
-            //     break;
-            // case 6:
-            //     test.Run();
-            //     break;
-            // case 7:
-            //     test.Run();
-            //     break;
-            // case 8:
-            //     test.Run();
-            //     break;
-            // case 9:
-            //     test.Run();
-            //     break;
-             case 10:
-                System.Console.WriteLine("Goodbye");
+            case 5:
+                DeleteLoan.Run();
+                break;
+            case 6:
+                ReturnLoans.Run();
+                break;
+            case 7:
+                AddRelationship.Run();
+                break;
+            case 8:
+                BibelotekList.Run();
+                break;
+             case 9:
+                System.Console.WriteLine("Welcome back anytime!");
                 menuSel = 0;   
                 return;
             default:

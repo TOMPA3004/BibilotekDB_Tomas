@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrhLtl803iI=",
+  "dgSpecHash": "vsKndk1UhBE=",
   "success": true,
-  "projectFilePath": "c:\\Users\\tomas\\OneDrive\\Skrivbord\\c#\\BibilotekDB\\BibilotekDB\\BibilotekDB.csproj",
+  "projectFilePath": "C:\\Users\\tomas\\OneDrive\\Skrivbord\\c#\\BibilotekDB\\BibilotekDB\\BibilotekDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomas\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tomas\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

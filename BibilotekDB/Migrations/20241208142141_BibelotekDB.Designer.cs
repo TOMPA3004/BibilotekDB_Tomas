@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BibilotekDB.Migrations
 {
     [DbContext(typeof(AddDbContext))]
-    [Migration("20241207172707_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241208142141_BibelotekDB")]
+    partial class BibelotekDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
